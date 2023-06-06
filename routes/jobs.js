@@ -4,7 +4,7 @@ const Job = require('../models/Job');
 
 // test router
 router.get('/test', (req, res) => {
-    res.send('Deu certo');
+    res.send('API funcionando corretamente');
 });
 
 //vacancy details
